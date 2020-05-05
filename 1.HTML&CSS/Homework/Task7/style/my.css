@@ -1,0 +1,45 @@
+a.test1:link{
+	color:green;
+	background: #fffccc;
+}
+a.test2:link{
+	color:red;
+	background: #fffccf;
+}
+a.test3:yellow{
+	color:green;
+	background: #fffcfc;
+}
+a.test4:aqua{
+	color:green;
+	background: #ffffcc;
+}
+
+a:visited{
+	color: grey;
+}
+h1:first-letter{
+	font-size: 24px;
+	color: #FF00FF;
+}
+h2:first-letter{
+	font-size: 24px;
+	color: #FFF0FF;
+}
+h3:first-letter{
+	font-size: 24px;
+	color: #FF0FFF;
+}
+p.test5:first-line{
+	font-style: italic;
+}
+.test6:before{
+	content: "УРА!!!"
+}
+.test6:after{
+	content: "ОКОНЧАНИЕ!!!"
+}
+::selection{
+	color:#C0C0C0;
+	background: #000000;
+}
