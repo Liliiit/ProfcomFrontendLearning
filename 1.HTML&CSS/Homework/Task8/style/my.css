@@ -1,0 +1,16 @@
+img[title="кит1"]{
+	width: 100px;
+}
+img[title="кит2"]{
+	height: 100px;
+}
+img[title="кит1"]{
+	width: 150px;
+}
+
+a[href="https://vk.com/alexandra_nikandrova"]{
+	color: aqua;
+}
+a[href="https://vk.com/id331011848"]{
+	color: fuchsia;
+}
