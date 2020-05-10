@@ -1,0 +1,39 @@
+body{
+	background: rgba(255, 229, 180, 0.9); 
+	max-width: 760px;
+	font-family: 'Indie Flower', cursive;
+}
+article{
+	color: rgb(200, 30, 240);
+}
+
+h1, h2, h3{
+	color: rgb(100, 20, 240);
+	font-size: 2em;
+	text-align: center;
+	font-weight: normal;
+}
+#odin{
+font-family: 'Modak', cursive;
+}
+#dva{
+font-family: 'Arvo', serif;
+}
+#tri{
+font-family: 'Shadows Into Light', cursive;
+}
+#chetire{
+font-family: 'Galada', cursive;
+}
+#pyat{
+text-decoration: underline;
+}
+#shest{
+letter-spacing: 3px;
+}
+h3{
+word-spacing: -2px;
+}
+h2{
+text-transform: uppercase;
+}
