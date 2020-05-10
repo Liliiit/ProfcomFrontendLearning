@@ -1,0 +1,35 @@
+body{
+	background: rgba(255, 229, 180, 0.9); 
+	max-width: 760px;
+	font-family: 'Indie Flower', cursive;
+	font-size: 40px;
+	font-weight: bold;
+	background: #000;
+	color:#fff;
+	padding: 4px;
+}
+article{
+	color: rgb(200, 30, 240);
+}
+
+h1, h2, h3{
+	color: rgb(100, 20, 240);
+	font-size: 2em;
+	text-align: center;
+	font-weight: normal;
+}
+
+#shest{
+	letter-spacing: 3px;
+}
+
+ol{
+	
+	list-style-position: inside;
+	 list-style-image: url(../images/1.jpg);
+	 font-size: 70px;
+}
+
+h2{
+	 border: 1px solid #987;
+}
