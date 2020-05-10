@@ -1,0 +1,61 @@
+div.a1{
+	width: 100%;
+	border: 1px solid #f45;
+	min-height: 100px;
+	background: rgba(255, 229, 180, 0.9);
+	float: left;
+	box-sizing: border-box;
+}
+div.a2{
+	width: 65%;
+	border: 1px solid #f45;
+	min-height: 200px;
+	background: rgba(255, 229, 180, 0.9);
+	float: left;
+	box-sizing: border-box;
+}
+
+div.a3{
+	width: 35%;
+	border: 1px solid #f45;
+	min-height: 200px;
+	background: rgba(255, 229, 180, 0.9);
+	float: left;
+	box-sizing: border-box;
+}
+
+div.a4{
+	width: 33.3%;
+	border: 1px solid #f45;
+	min-height: 200px;
+	background: rgba(255, 229, 180, 0.9);
+	float: left;
+	box-sizing: border-box;
+}
+
+div.a5{
+	width: 33.3%;
+	border: 1px solid #f45;
+	min-height: 200px;
+	background: rgba(255, 229, 180, 0.9);
+	float: left;
+	box-sizing: border-box;
+}
+
+div.a6{
+	width: 33.3%;
+	border: 1px solid #f45;
+	min-height: 200px;
+	background: rgba(255, 229, 180, 0.9);
+	float: left;
+	box-sizing: border-box;
+}
+
+div.a7{
+	width: 100%;
+	border: 1px solid #f45;
+	min-height: 50px;
+	background: rgba(255, 229, 180, 0.9);
+	float: left;
+	box-sizing: border-box;
+}
