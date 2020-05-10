@@ -21,7 +21,7 @@ h1, h2, h3{
 
 #shest{
 	letter-spacing: 3px;
-	text-shadow: -3px 5px 2px #EE82EE;
+	text-shadow: -0.1px 3px 2px #EE82EE;
 }
 
 ol{
