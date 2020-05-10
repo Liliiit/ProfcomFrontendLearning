@@ -11,6 +11,10 @@ article{
 	color: rgb(200, 30, 240);
 }
 
+p{
+	text-shadow: -3px 5px 2px #05;
+}
+
 h1, h2, h3{
 	color: rgb(100, 20, 240);
 	font-size: 2em;
