@@ -1,0 +1,12 @@
+body{
+	background: rgba(255, 229, 180, 0.9); 
+	max-width: 760px;
+	font-family: "Kurale", Arial, Helvetica, sans-serif;
+}
+article{
+	color: rgb(200, 30, 240);
+}
+
+h1, h2, h3{
+	color: rgb(200, 30, 240);
+}
