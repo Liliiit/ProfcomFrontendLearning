@@ -1,4 +1,9 @@
-p.test2{
+body{
+	background: rgba(255, 229, 180, 0.9); 
+	padding: 0 20px 20px 20px;
+	margin: 0;
+}
+p{
 	border: 1px solid #693;
 	background: red;
 	border-radius: 40px/20px;
