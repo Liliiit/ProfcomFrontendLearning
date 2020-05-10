@@ -25,7 +25,6 @@ h1, h2, h3{
 
 ol{
 	
-	list-style-position: inside;
 	 list-style-image: url(../images/1.jpg);
 	 font-size: 70px;
 }
