@@ -1,0 +1,19 @@
+body{
+	padding: 60px;
+	
+}
+#one{
+	background-image: url(../img/9.jpg)
+}
+
+#two{
+	background-image: url(../img/5.jpg)
+}
+
+#three{
+	background-image: url(../img/3.jpg)
+}
+
+#four{
+	background-image: url(../img/4.jpg)
+}
