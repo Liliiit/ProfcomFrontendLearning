@@ -48,14 +48,14 @@ body {
 
 
 header {
-	background-color:rgb(93,43,78); 
-	background-image: -webkit-linear-gradient(right, rgb(93,43,78), rgb(8,2,50));
+	background-color:#ffd414; 
+	background-image: -webkit-linear-gradient(left, #ff8e00, #ffa500, #ffff00);
 	padding-bottom: 30px;
 }
 
 header h1 {
 	font-size: 3em;	
-	color: white;
+	color: black;
 	font-weight: bold;
 	padding-top: 30px;
 	clear: both;
@@ -63,8 +63,8 @@ header h1 {
 }
 
 nav {
-	background-color: rgb(25,25,25);
-	border: 1px solid rgba(255,255,255,.5);	
+	background-color:#ffd414;
+	border: 1px solid black;	
 	border-left: none;
 	border-right: none;
 }
@@ -81,11 +81,11 @@ nav li {
 nav a {
 	float: left;
 	font-size: .8em;	
-	color: white;
+	color: black;
 	font-weight: normal;
 	text-decoration: none;
 	padding: 10px;
-	border-right: 1px dashed rgba(255,255,255,.75);
+	border-right: 1px dashed black;
 	-webkit-transition: all .5s;
 	-moz-transition: all .5s;
 	-o-transition: all .5s;
@@ -95,7 +95,7 @@ nav li:last-of-type a {
 	border-right: none;	
 }
 nav a:hover {
-	background-color: rgb(93,43,78);
+	background-color: #ff8e00;
 }
 aside h2 {
 	font-size: 1.3em;
@@ -124,11 +124,11 @@ footer {
 	margin-top: 15px;
 	font-size: .8em;	
 	padding: 10px 10px 30px 10px;
-	background-color: black;
-	color: rgb(204,204,204);
+	background-color: #ffa500;
+	color: black;
 }
 footer a {
-	color: white;	
+	color: black;	
 }
 .sidebar1{
 	float: 	left;
@@ -141,10 +141,24 @@ footer a {
 	padding: 0 20px 0 20px;
 	border-left:dashed	1px rgb(140, 140, 150);
 	border-right:dashed	1px rgb(140, 140, 150);
+	border-bottom:dashed	1px rgb(140, 140, 150); 
 }
 .sidebar2{
 	float: right;
 	width: 20%;
+	padding: 0 20px 0 12px;
+}
+
+.sidebar3{
+	float: right;
+	width: 50%;
+	padding: 0 20px 0 12px;
+	border-left:dashed	1px rgb(140, 140, 150);
+}
+
+.sidebar4{
+	float: right;
+	width: 50%;
 	padding: 0 20px 0 12px;
 }
 
