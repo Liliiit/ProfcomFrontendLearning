@@ -24,17 +24,19 @@ a.button:hover {
 }
 
 a.button1 {
-	padding: 3px;
-	color: black;
-	background-color: #FF6603;
-	border: 5px solid #660034;
+	font: .9em Arial, Helvetica, sans-serif;
+	border-radius: .5em;
+	background-color: rgb(34,255,23);
+	border: 1px solid rgba(0,0,0,.5);
+	padding: .5em;
+	display: inline-table;
 	transition-property: color, background-color, border-color;
-	transition-duration: 1s, 1s, 2s;
-	transition-delay: 0, 0, 1s;
 }
 a.button1:hover {
-	color: white;
-	background-color: #660034;
+	color: black;
+	background-color: yellow;
 	border-color: #FF6603;
 	-webkit-transform: scale(1.2) rotate(12deg);
+	-ms-transform: scale(1.2) rotate(12deg);
+	transform: scale(1.2) rotate(12deg);
 }
