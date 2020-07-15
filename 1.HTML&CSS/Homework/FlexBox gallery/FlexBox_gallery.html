@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flexbox</title>
+	<meta charset="utf-8">
+</head>
+<body>
+<style>
+	@media(min-width: 768px){
+		.main{
+			display: flex;
+			/*align-items: flex-start;
+			align-items: center;
+			flex-direction: column;*/
+		}
+		.main-2{
+			display: flex;
+			justify-content: space-around;
+		}
+		.boxes{
+		width: 28%;
+		}
+	}
+	.main div, .main-2 div{
+		border: 1px solid #234cc2;
+		padding: 12px;
+	}
+	.box-1{
+		flex:1;
+		order:3;
+	}
+	.box-2{
+		flex:2;
+		order:1;
+	}
+	.box-3{
+		flex:1;
+		order:2;
+	}
+	
+</style>
+
+<div class="main">
+	<ul>
+		 <li class="box-1"> <img src="img/IMG_9138.JPG" alt="fam" heigh="700" width="1000"> </li>
+		 <li class="box-2"> <img src="img/IMG_9138.JPG" alt="fam" heigh="700" width="1000"> </li>
+		 <li class="box-3"> <img src="img/IMG_9138.JPG" alt="fam" heigh="700" width="1000"> </li>
+</ul>
+</div>
+
+</body>
+</html>
