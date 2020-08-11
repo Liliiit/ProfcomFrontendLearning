@@ -6,17 +6,18 @@
 </head>
 <body>
 	<script>
-		var price = prompt(price, default);
-		var discont = 25;
+		var price = 20;
+		var numb = 0;
 		
-		while((price < 100000) && (price > 5000)){
-			var total = price - (price * (discont / 100));
+		while(price > 7){
+			var price = price - 5;
+			numb = numb + 1;
 		}
-		alert(total);
+		alert("Salut " + numb);
 
 
 
-		var number = prompt(number, default);
+		var number = 4;
 
 		while(number > 0){
 			document.write("Numder больше нуля<br>");
